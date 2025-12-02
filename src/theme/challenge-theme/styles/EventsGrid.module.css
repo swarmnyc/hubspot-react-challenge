@@ -1,0 +1,212 @@
+.cardPast {
+  opacity: 0.7;
+}
+
+.cardHeader {
+  position: relative;
+  height: 10rem;
+  overflow: hidden;
+}
+
+.cardImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.card:hover .cardImage {
+  transform: scale(1.05);
+}
+
+.cardPlaceholder {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardPlaceholderIcon {
+  width: 4rem;
+  height: 4rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.typeBadge {
+  position: absolute;
+  left: 0.75rem;
+  top: 0.75rem;
+  border-radius: 9999px;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.typeBadgeWebinar {
+  background-color: #f3e8ff;
+  color: #7c3aed;
+}
+
+.typeBadgeWorkshop {
+  background-color: #dcfce7;
+  color: #15803d;
+}
+
+.typeBadgeConference {
+  background-color: #dbeafe;
+  color: #1d4ed8;
+}
+
+.typeBadgeMeetup {
+  background-color: #ffedd5;
+  color: #c2410c;
+}
+
+.virtualBadge {
+  position: absolute;
+  right: 0.75rem;
+  top: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  border-radius: 9999px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #374151;
+}
+
+.virtualIcon {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+.dateTime {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.cardTitle {
+  margin-bottom: 0.5rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  transition: color 0.2s;
+}
+
+.description {
+  margin-bottom: 1rem;
+  flex: 1;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: #4b5563;
+}
+
+.location,
+.speakers {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.countdown {
+  display: flex;
+  gap: 0.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.countdownItem {
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.countdownValue {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.countdownLabel {
+  margin-left: 0.25rem;
+  font-size: 0.75rem;
+}
+
+.countdownOver {
+  color: #6b7280;
+}
+
+.capacity {
+  margin-bottom: 1rem;
+}
+
+.capacityLabels {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.25rem;
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+.capacityBar {
+  height: 0.5rem;
+  overflow: hidden;
+  border-radius: 9999px;
+  background-color: #e5e7eb;
+}
+
+.capacityFill {
+  height: 100%;
+  border-radius: 9999px;
+  transition: all 0.3s;
+}
+
+.registerButton {
+  display: block;
+  margin-top: auto;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+  text-align: center;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  transition: opacity 0.2s;
+  border: none;
+  cursor: pointer;
+}
+
+.registerButton:hover {
+  opacity: 0.9;
+}
+
+.disabledButton {
+  display: block;
+  width: 100%;
+  margin-top: auto;
+  border-radius: 0.5rem;
+  background-color: #e5e7eb;
+  padding: 0.75rem 1rem;
+  text-align: center;
+  font-weight: 600;
+  color: #6b7280;
+  border: none;
+  cursor: not-allowed;
+}
+
+.pastSection {
+  margin-top: 4rem;
+}
+
+.pastTitle {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #374151;
+}

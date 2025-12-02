@@ -1,0 +1,19 @@
+{
+  "name": "cms-react-starter-theme",
+  "version": "1.0.0",
+  "description": "CMS React starter theme",
+  "scripts": {
+    "start": "hs-cms-dev-server .",
+    "deploy": "~/.nvm/versions/node/v20.19.0/lib/node_modules/@hubspot/cli/bin/hs project upload",
+    "auth": "~/.nvm/versions/node/v20.19.0/lib/node_modules/@hubspot/cli/bin/hs auth"
+  },
+  "type": "module",
+  "keywords": [],
+  "dependencies": {
+    "@hubspot/cms-components": "latest",
+    "react": "^18"
+  },
+  "devDependencies": {
+    "@hubspot/cms-dev-server": "latest"
+  }
+}

@@ -1,0 +1,22 @@
+<!--
+  templateType: page
+  isAvailableForNewContent: true
+  label: Blank Page
+-->
+{% extends "./layouts/base.hubl.html" %}
+
+{% block body %}
+
+  {% dnd_area "main_content"
+    label="Main Content",
+    class="main-content"
+  %}
+    {% dnd_section %}
+      {% dnd_column %}
+        {% dnd_row %}
+        {% end_dnd_row %}
+      {% end_dnd_column %}
+    {% end_dnd_section %}
+  {% end_dnd_area %}
+
+{% endblock body %}
