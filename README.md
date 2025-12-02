@@ -64,10 +64,11 @@ src/theme/challenge-theme/
 - HubSpot CLI installed (`npm install -g @hubspot/cli`)
 
 ### Installation
+You can use bun, yarn, pnpm or bun to run and install the dependencies.
 
 1. **Clone and install**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/swarmnyc/hubspot-react-challenge
    cd hubspot-react-challenge
    npm install
    cd src/theme/challenge-theme
@@ -83,6 +84,7 @@ src/theme/challenge-theme/
    ```bash
    cd src/theme/challenge-theme
    npm start -- --generateFieldTypes
+   open localhost:3000
    ```
 
 4. **Deploy to HubSpot**
